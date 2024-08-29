@@ -15,8 +15,8 @@ const NavigationComponet =()=>{
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Host': 'asos2.p.rapidapi.com',
-        'X-RapidAPI-Key': '7be3eeea50msh8ef01ec06ced9dap195957jsn73ca7f2ac984'
+        'X-RapidAPI-Host': Process.env.RAPIDAPI_HOST,
+        'X-RapidAPI-Key': Process.env.RAPIDAPI_KEY
       }
     };
   
